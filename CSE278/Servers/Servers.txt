@@ -1,0 +1,3 @@
+os1.csi.miamioh.edu (Designated Linux server) 
+ 
+ceclnx01.cec.miamioh.edu (CEC Server) 

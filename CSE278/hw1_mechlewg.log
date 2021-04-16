@@ -1,0 +1,52 @@
+Script started on 2020-05-28 21:14:36-0400
+]0;mechlewg@os1: ~[01;32mmechlewg@os1[00m:[01;34m~[00m$ date
+Thu May 28 21:14:40 EDT 2020
+]0;mechlewg@os1: ~[01;32mmechlewg@os1[00m:[01;34m~[00m$ w
+ 21:14:42 up 226 days, 14:07,  7 users,  load average: 0.00, 0.02, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+lil61    pts/22   172.22.137.79    20:30    2:58   0.08s  0.00s script hw1_lil61.log
+wuc16    pts/23   10.8.7.89        19:23   26:18   0.10s  0.10s -bash
+gaoc3    pts/26   10.8.1.152       20:14   50.00s  0.10s  0.10s -bash
+songm4   pts/36   10.8.1.155       21:10   25.00s  0.07s  0.07s -bash
+mechlewg pts/34   10.8.7.24        20:54    2.00s  0.11s  0.00s script
+kesavas  pts/24   10.8.7.103       20:44    6:57   0.08s  0.08s -bash
+songm4   pts/27   10.8.1.155       21:02    6:25   0.10s  0.10s -bash
+]0;mechlewg@os1: ~[01;32mmechlewg@os1[00m:[01;34m~[00m$ mkdir hw1
+]0;mechlewg@os1: ~[01;32mmechlewg@os1[00m:[01;34m~[00m$ chmod 765 hw1
+]0;mechlewg@os1: ~[01;32mmechlewg@os1[00m:[01;34m~[00m$ ls -l > root.txt
+]0;mechlewg@os1: ~[01;32mmechlewg@os1[00m:[01;34m~[00m$ cp root.txt ~[K./root2.txt
+]0;mechlewg@os1: ~[01;32mmechlewg@os1[00m:[01;34m~[00m$ sort -r root2.txt > sorted.txt
+]0;mechlewg@os1: ~[01;32mmechlewg@os1[00m:[01;34m~[00m$ cat root2.txt[K[K[K[K[K.txt root2,t[K[K.txt>[K > sorted.txt
+]0;mechlewg@os1: ~[01;32mmechlewg@os1[00m:[01;34m~[00m$ cat root2.txt
+total 32
+drwxr-xr-x 3 mechlewg uuidd 4096 May 28 21:03 cse278
+-rw-r--r-- 1 mechlewg uuidd 1252 May 28 18:13 Exercise1.class
+-rw-r--r-- 1 mechlewg uuidd 1363 May 28 18:31 Exercise1.java
+-rw-r--r-- 1 mechlewg uuidd    1 May 28 18:21 Exercise.java
+drwxrw-r-x 2 mechlewg uuidd 4096 May 28 21:14 hw1
+-rw-r--r-- 1 mechlewg uuidd  257 May 28 18:12 para1.txt
+-rw-r--r-- 1 mechlewg uuidd  308 May 28 18:13 para2.txt
+drwxr-xr-x 2 mechlewg uuidd 4096 May 23 17:30 public_html
+-rw-r--r-- 1 mechlewg uuidd    0 May 28 21:15 root.txt
+-rw-r--r-- 1 mechlewg uuidd    0 May 28 21:14 typescript
+]0;mechlewg@os1: ~[01;32mmechlewg@os1[00m:[01;34m~[00m$ mv ./root2.txt ./newroot.txt
+]0;mechlewg@os1: ~[01;32mmechlewg@os1[00m:[01;34m~[00m$ cp newroot.txt ./hw1/root3.txt
+]0;mechlewg@os1: ~[01;32mmechlewg@os1[00m:[01;34m~[00m$ cd hw1
+]0;mechlewg@os1: ~/hw1[01;32mmechlewg@os1[00m:[01;34m~/hw1[00m$ mkdir temp[K[K[K[Khold
+]0;mechlewg@os1: ~/hw1[01;32mmechlewg@os1[00m:[01;34m~/hw1[00m$ mkdir temp
+]0;mechlewg@os1: ~/hw1[01;32mmechlewg@os1[00m:[01;34m~/hw1[00m$ cp root3.t[K[K[K[K[K[K[K./hw1/root3.txt[1Proot3.txt[1Proot3.txt[1Proot3.txt[1Proot3.txt[1Proot3.txt/root3.txt[C[C[C[C[C[C[C[C[C ./hw[K[K[K/hw1/temp/root4.txt
+cp: cannot create regular file './hw1/temp/root4.txt': No such file or directory
+]0;mechlewg@os1: ~/hw1[01;32mmechlewg@os1[00m:[01;34m~/hw1[00m$ cp ./root3.txt ./hw1/temp/root4.txt[C[C[C[1P[1P[C[C[C[C[C[C[C[C[C[C[C[1P/hw1/temp/root4.txt~/hw1/temp/root4.txt
+]0;mechlewg@os1: ~/hw1[01;32mmechlewg@os1[00m:[01;34m~/hw1[00m$ mv root3.txt ~/hw1/hold/root5.txt
+]0;mechlewg@os1: ~/hw1[01;32mmechlewg@os1[00m:[01;34m~/hw1[00m$ rm ~/hw1/hold/root5.txt
+]0;mechlewg@os1: ~/hw1[01;32mmechlewg@os1[00m:[01;34m~/hw1[00m$ rmdir hold
+]0;mechlewg@os1: ~/hw1[01;32mmechlewg@os1[00m:[01;34m~/hw1[00m$ ls -l
+total 4
+drwxr-xr-x 2 mechlewg uuidd 4096 May 28 21:22 [0m[01;34mtemp[0m
+]0;mechlewg@os1: ~/hw1[01;32mmechlewg@os1[00m:[01;34m~/hw1[00m$ clear
+[3J[H[2J]0;mechlewg@os1: ~/hw1[01;32mmechlewg@os1[00m:[01;34m~/hw1[00m$ pwd
+/home/mechlewg/hw1
+]0;mechlewg@os1: ~/hw1[01;32mmechlewg@os1[00m:[01;34m~/hw1[00m$ sc[K[Kexit
+exit
+
+Script done on 2020-05-28 21:24:22-0400
